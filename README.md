@@ -157,7 +157,6 @@ While the current prototype of the Smart Traffic System demonstrates effective r
  
  
 
-       APPLICATIONS
 
 
 1. Urban Traffic Management
