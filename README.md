@@ -68,7 +68,7 @@ Urban traffic congestion and emergency vehicle delays are growing concerns. The 
 •	Code written in C++ handles:  
   -	Real-time sensor polling.  
   -	Signal prioritization.  
-  - Dynamic LED control.  
+  - Dynamic LED control.     
 •	The logic was structured to process inputs continuously and trigger appropriate outputs without manual intervention.  
 
 **5. System Testing**
@@ -100,9 +100,9 @@ While the current prototype of the Smart Traffic System demonstrates effective r
 **3. Mobile Application Support**
 
 •	Develop a mobile app for users and administrators to:           
-  o	View real-time traffic conditions.           
-  o	Receive traffic alerts and updates.                 
-  o	Monitor system performance and configure settings remotely.            
+  -	View real-time traffic conditions.           
+  -	Receive traffic alerts and updates.                 
+  -	Monitor system performance and configure settings remotely.            
 
 **4. Camera-Based License Plate Recognition**
 
