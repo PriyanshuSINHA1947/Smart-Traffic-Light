@@ -45,14 +45,17 @@ Traditional traffic systems are often static and cannot adapt to real-time traff
 
 The Smart Traffic System project follows a structured approach integrating hardware, software, and IoT-based logic to dynamically manage traffic flow. The methodology can be broken down into the following phases:
 
-**1. Problem Identification**
+**1. Problem Identification**   
+
 Urban traffic congestion and emergency vehicle delays are growing concerns. The project identifies the need for an adaptive, real-time traffic control system capable of addressing these issues using smart sensing and control.   
 
 **2. System Design**
+
 •	A block diagram and logical flow were conceptualized to guide system behavior.  
 •	Design decisions were made to prioritize modularity and scalability.   
 
 **3. Component Selection**
+
 •	ESP32 was chosen as the central controller due to its processing power and built-in Wi-Fi.   
 •	RFID module (MFRC522) enables recognition of emergency or authorized vehicles.   
 •	Ultrasonic sensors assess vehicle density to adapt traffic signal timing.  
@@ -60,6 +63,7 @@ Urban traffic congestion and emergency vehicle delays are growing concerns. The 
 •	9V battery provides portable power, enabling off-grid operation and demonstrations.  
 
 **4. Sensor Integration and Programming**
+
 •	Sensors and modules were interfaced with ESP32 using the Arduino IDE.  
 •	Code written in C++ handles:  
   o	Real-time sensor polling.  
@@ -68,11 +72,13 @@ Urban traffic congestion and emergency vehicle delays are growing concerns. The 
 •	The logic was structured to process inputs continuously and trigger appropriate outputs without manual intervention.  
 
 **5. System Testing**
+
 •	The prototype was tested under various simulated traffic conditions.    
 •	Emergency vehicle scenarios were validated using RFID tags.         
 •	The system dynamically adjusted traffic signals based on real-time inputs.      
 
 **6. Result Analysis**
+
 •	Successful real-time operation with prioritized signaling and dynamic control.         
 •	Validated sensor accuracy and response time under different conditions.        
 •	Demonstrated the system’s potential for expansion to multiple junctions.            
@@ -82,31 +88,38 @@ Urban traffic congestion and emergency vehicle delays are growing concerns. The 
 While the current prototype of the Smart Traffic System demonstrates effective real-time control and vehicle prioritization, several enhancements can further improve its functionality, scalability, and integration with modern urban infrastructure:
 
 **1. Cloud Integration**
+
 •	Connect the system to a cloud platform (e.g., Firebase, AWS IoT) for real-time data storage, analysis, and monitoring.         
 •	Enable remote control and dashboard visualization for traffic authorities.             
 
 **2. GPS Module Integration**
+
 •	Use GPS to track vehicle movement and automatically identify approaching emergency vehicles without relying solely on RFID.         
 •	Enhance route optimization and tracking for public or emergency vehicles.           
 
 **3. Mobile Application Support**
+
 •	Develop a mobile app for users and administrators to:           
   o	View real-time traffic conditions.           
   o	Receive traffic alerts and updates.                 
   o	Monitor system performance and configure settings remotely.            
 
 **4. Camera-Based License Plate Recognition**
+
 •	Integrate a camera module with OCR (Optical Character Recognition) to identify vehicle license plates.            
 •	Enable automated fine issuance, entry logging, or further vehicle prioritization based on license.            
 
 **5. AI-Powered Traffic Prediction**
+
 •	Implement machine learning models to predict traffic flow trends based on historical data.           
 •	Use predictive analytics to preemptively adjust traffic signals before congestion builds up.           
 
 **6. Solar Power Integration**
+
 •	Add solar panels and smart energy management to power the system sustainably in outdoor environments.     
 
 **7. Multiple Junction Synchronization**
+
 •	Develop communication protocols to synchronize traffic signals across multiple intersections.          
 •	Create a city-wide adaptive traffic management system.               
 
