@@ -66,9 +66,9 @@ Urban traffic congestion and emergency vehicle delays are growing concerns. The 
 
 •	Sensors and modules were interfaced with ESP32 using the Arduino IDE.  
 •	Code written in C++ handles:  
-  o	Real-time sensor polling.  
-  o	Signal prioritization.  
-  o Dynamic LED control.  
+  -	Real-time sensor polling.  
+  -	Signal prioritization.  
+  - Dynamic LED control.  
 •	The logic was structured to process inputs continuously and trigger appropriate outputs without manual intervention.  
 
 **5. System Testing**
